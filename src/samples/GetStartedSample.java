@@ -47,12 +47,17 @@ import com.aliyun.oss.model.PutObjectRequest;
  * using the OSS SDK for Java.
  */
 public class GetStartedSample {
-    
-    private static String endpoint = "<endpoint, http://oss-cn-hangzhou.aliyuncs.com>";
-    private static String accessKeyId = "<accessKeyId>";
-    private static String accessKeySecret = "<accessKeySecret>";
-    private static String bucketName = "<bucketName>";
-    private static String key = "<key>";
+    /*
+         * 陆金所Team资产
+     */
+    private static String endpoint = "https://lu-financial-documents-19.oss-cn-shanghai.aliyuncs.com";
+    private static String accessKeyId = "LTAI5t8*******eotof3bWi";
+    private static String accessKeySecret = "bmfhFi******dpGPhzU1yL9tDw";
+    private static String bucketName = "lu-financial-documents-19";
+    private static String teamURL = "https://team.lu.com/admin/login";
+    private static String teamAccountTest = "lu.test.";
+    private static String teamPasswordTest = "lu.test.2025@qaz.";
+    private static String key = "****";
     
     public static void main(String[] args) throws IOException {
         /*
