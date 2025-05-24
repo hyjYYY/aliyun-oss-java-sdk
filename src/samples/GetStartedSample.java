@@ -48,7 +48,7 @@ import com.aliyun.oss.model.PutObjectRequest;
  */
 public class GetStartedSample {
     /*
-         * 陆金所Team资产
+         * 陆金所Team项目
      */
     private static String endpoint = "https://lu-financial-documents-19.oss-cn-shanghai.aliyuncs.com";
     private static String accessKeyId = "LTAI5t8*******eotof3bWi";
